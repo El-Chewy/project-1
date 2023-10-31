@@ -1,0 +1,7 @@
+function isPositive(a) {
+   if(a <= 0  ){
+       throw new Error( a === 0 ? "Zero Error" : "Negative Error");
+    }else{
+        return "YES"
+    }
+}

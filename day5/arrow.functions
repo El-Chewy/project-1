@@ -1,0 +1,9 @@
+function modifyArray(nums) {
+    return nums.map(elem => elem % 2 == 0 ? elem  * 2 : elem * 3);
+}
+function main() {
+    const n = +(readLine());
+    const a = readLine().split(' ').map(Number);
+    
+    console.log(modifyArray(a).toString().split(',').join(' '));
+}
